@@ -61,3 +61,36 @@ const headerActive = function () {
 }
 
 addEventOnElem(window, "scroll", headerActive);
+document.getElementById("contact").addEventListener("submit", function (e) {
+  const fullname = document.getElementById("fullname").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const file = document.getElementById("file").files[0];
+  const number = document.getElementById("number").value.trim();
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const numberPattern = /^\d{10,}$/; // Minimum 10 digits
+
+  if (fullname === "") {
+    alert("Please enter your full name.");
+    e.preventDefault();
+    return;
+  }
+
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    e.preventDefault();
+    return;
+  }
+
+  if (!file) {
+    alert("Please select a file to upload.");
+    e.preventDefault();
+    return;
+  }
+
+  if (!numberPattern.test(number)) {
+    alert("Please enter a valid contact number (at least 10 digits).");
+    e.preventDefault();
+    return;
+  }
+});
