@@ -609,7 +609,12 @@ body {
   border-radius: var(--radius-8);
   background-color: hsla(var(--color), 0.15);
   margin-block-end: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: var(--transition-2);
+  margin-left: 7rem;
+  /* text-align: center ; */
 }
 .service-card .card-icon i{
   font-size: 5rem;
@@ -1352,11 +1357,57 @@ body {
   .hero-btn .span { flex-shrink: 0; }
 
   .hero-banner { margin-inline-end: -140px; }
-/* about/ */
-/* About us */
 
 
- .section.about {
+
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+.btn-primary.has-before.has-after {
+  display: inline-block; 
+}
+
+@media (max-width: 992px) {
+
+
+  .servciebtn {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+
+.section.about {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1403,17 +1454,44 @@ body {
 
 }
 .servciebtn{
-  margin-top: 2rem;
-  margin-left: 20rem;
+  margin-bottom: 2rem !important;
 }
 
 .btn-primary.has-before.has-after {
   display: inline-block; 
 }
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
 
+  .about-content {
+    flex: 1 1 100%;
+    padding-right: 0;
+  }
 
-/* About us  */
+  .about-image {
+    flex: 1 1 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+  }
 
+  .about-image img {
+    width: 100%; 
+    height: auto; 
+    max-width: 70%; 
+    display: none !important;
+
+  }
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
   /**
    * FEATURE
@@ -1474,26 +1552,7 @@ body {
    * BLOG
    */
 
-  .blog-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 70px;
-  }
-
-  .blog-list > li:first-child { grid-row: 1 / 4; }
-
-  .blog-card:not(.large) .wrapper {
-    gap: 10px;
-    flex-wrap: nowrap;
-    margin-block-end: 10px;
-  }
-
-  .blog-card:not(.large) .publish-date {
-    flex-shrink: 0;
-    font-size: var(--fs-9);
-    gap: 5px;
-  }
-
-  .blog-card .card-title { --fs-4: 1.8rem; }
+  
 
 
 
