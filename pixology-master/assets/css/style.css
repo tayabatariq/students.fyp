@@ -493,18 +493,7 @@ body {
     border-radius: 50px;
     font-weight: 600;
 }
-.card-list .developer {
-    background-color: #F7DFF5; 
-    color: #B22485;
-}   
-.card-list .designer {
-    background-color: #d1e8ff;
-    color: #2968a8;
-}
-.card-list .editor {
-    background-color: #d6f8d6; 
-    color: #205c20;
-}
+
 .card-item h3 {
     color: #000;
     font-size: 1.438rem;
@@ -616,11 +605,29 @@ body {
 
 .service-card .card-icon {
   max-width: max-content;
-  padding: 15px;
+  padding: 10px;
   border-radius: var(--radius-8);
   background-color: hsla(var(--color), 0.15);
   margin-block-end: 25px;
   transition: var(--transition-2);
+}
+.service-card .card-icon i{
+  font-size: 5rem;
+}
+.service-card .card-icon  .mernstack{
+  color: black;
+}
+.service-card .card-icon  .WordPress{
+  color: blue;
+}
+.service-card .card-icon  .ai{
+  
+  color: rgb(0, 217, 255);
+}
+.service-card .card-icon  .shopify{
+  color: rgb(12, 209, 45);
+}.service-card .card-icon  .wocommerece{
+  color: rgb(209, 117, 12);
 }
 
 .service-card:is(:hover, :focus-within) .card-icon { transform: rotateY(0.5turn); }
@@ -1050,7 +1057,15 @@ body {
   }
 
 
-
+.contact-main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:4rem;
+  background-color: var( --ghost-white);
+}
   /**
    * HEADER
    */
@@ -1544,4 +1559,105 @@ body {
 
   .blog-card .card-title { --fs-4: 2.4rem; }
 
+}
+
+/* contact form css./ */
+
+form {
+  padding: 25px;
+  
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid rgba(75, 75, 75, 0.438);
+  border-radius: 7px;
+  background-color: white;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+form h2 {
+  font-size: 27px;
+  text-align: center;
+  margin: 0px 0 30px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+form input,
+form select {
+  height: 45px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #9a9a9a;
+}
+
+form input.error,
+form select.error {
+  border-color: #f91919;
+  background: #f9f0f1;
+}
+
+form small {
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  color: #f91919;
+}
+
+form .password i {
+  position: absolute;
+  right: 0px;
+  height: 45px;
+  top: 28px;
+  font-size: 13px;
+  line-height: 45px;
+  width: 45px;
+  cursor: pointer;
+  color: #939393;
+  text-align: center;
+}
+
+.submit-btn {
+  margin-top: 30px;
+}
+
+.submit-btn input {
+  color: white;
+  border: none;
+  height: auto;
+  font-size: 16px;
+  padding: 13px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  background: var(--blue-ryb_80);
+  transition: 0.2s ease;
+}
+
+.submit-btn input:hover {
+  background: var(  --majorelle-blue);
 }
