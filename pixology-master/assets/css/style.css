@@ -1382,13 +1382,19 @@ body {
    */
 
   .newsletter .container {
-    grid-template-columns: 1fr 0.8fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
 
   .newsletter-banner {
     order: 1;
     margin-inline-start: auto;
+  }
+  .newsletter-banner img{
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
+    object-fit: cover;
   }
 
   .email-field {
