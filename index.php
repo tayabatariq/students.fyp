@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student.fyp || Build Projects</title>
+  <!-- jqurry -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- font aswsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -29,7 +31,7 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
 
 </head>
 
@@ -161,7 +163,7 @@
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.jpg" width="794" height="637" alt="hero banner" class="w-100">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
           </figure>
 
         </div>
@@ -221,6 +223,7 @@
 
           <h2 class="h2 section-title text-center">
             Tailored web development services for <span class="has-before">final year projects</span>. Pick the tech stack that best fits your goals and let's build something exceptional. </h2>
+            
 
             <ul class="grid-list">
 
@@ -419,29 +422,29 @@
           <p class="section-subtitle has-before text-center">Projects</p>
 
           <h2 class="h2 section-title text-center">
-            Pixology complete <span class="has-before">project</span>
+            Explore our expert-built projects tailored for your <span class="has-before">final year success</span> — from web apps to AI-powered solutions!
           </h2>
 
           <ul class="filter-list">
 
             <li>
-              <button class="filter-btn active" data-filter-btn>Website</button>
+              <button class="filter-btn active" data-filter-btn>MERN Stack Projects</button>
             </li>
 
             <li>
-              <button class="filter-btn" data-filter-btn>Landing Page</button>
+              <button class="filter-btn" data-filter-btn>WordPress Development</button>
             </li>
 
             <li>
-              <button class="filter-btn" data-filter-btn>iOS App</button>
+              <button class="filter-btn" data-filter-btn>AI Integration</button>
             </li>
 
             <li>
-              <button class="filter-btn" data-filter-btn>Landing Page</button>
+              <button class="filter-btn" data-filter-btn>Portfolio Websites</button>
             </li>
 
             <li>
-              <button class="filter-btn" data-filter-btn>Branding Design</button>
+              <button class="filter-btn" data-filter-btn>E-Commerce Solutions</button>
             </li>
 
           </ul>
@@ -452,16 +455,16 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 835; --height: 429;">
-                  <img src="./assets/images/project-1.jpg" width="835" height="429" loading="lazy" alt="Book art design"
+                  <img src="./assets/images/project1.png" width="835" height="429" loading="lazy" alt="Book art design"
                     class="img-cover">
                 </figure>
 
                 <div class="card-content">
                   <h3 class="h3">
-                    <a href="#" class="card-title">Book art design</a>
+                    <a href="#" class="card-title">Tourly - Travel Agency Website</a>
                   </h3>
 
-                  <a href="#" class="card-tag">Branding</a>
+                  <a href="#" class="card-tag">A modern and responsive travel agency website designed to help users explore top destinations, book packages, and plan their perfect journey — built using HTML, CSS, and JavaScript.</a>
                 </div>
 
               </div>
@@ -471,16 +474,16 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
-                  <img src="./assets/images/project-2.jpg" width="416" height="429" loading="lazy" alt="Graphic Design"
+                  <img src="./assets/images/project2.png" width="416" height="429" loading="lazy" alt="Graphic Design"
                     class="img-cover">
                 </figure>
 
                 <div class="card-content">
                   <h3 class="h3">
-                    <a href="#" class="card-title">Graphic Design</a>
+                    <a href="#" class="card-title"> Foofie - Food Delivery Website</a>
                   </h3>
 
-                  <a href="#" class="card-tag">Design</a>
+                  <a href="#" class="card-tag">Order food online with ease — fast, tasty, and at your doorstep.</a>
                 </div>
 
               </div>
@@ -490,16 +493,16 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
-                  <img src="./assets/images/project-3.jpg" width="416" height="429" loading="lazy" alt="3d Digital Art"
+                  <img src="./assets/images/project3.png" width="416" height="429" loading="lazy" alt="3d Digital Art"
                     class="img-cover">
                 </figure>
 
                 <div class="card-content">
                   <h3 class="h3">
-                    <a href="#" class="card-title">3d Digital Art</a>
+                    <a href="#" class="card-title"> Makaan - Property Booking Website</a>
                   </h3>
 
-                  <a href="#" class="card-tag">Design</a>
+                  <a href="#" class="card-tag">Find and book your dream home in just a few clicks.</a>
                 </div>
 
               </div>
@@ -509,16 +512,16 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
-                  <img src="./assets/images/project-4.jpg" width="416" height="429" loading="lazy" alt="Web Design"
+                  <img src="./assets/images/project4.png" width="416" height="429" loading="lazy" alt="Web Design"
                     class="img-cover">
                 </figure>
 
                 <div class="card-content">
                   <h3 class="h3">
-                    <a href="#" class="card-title">Web Design</a>
+                    <a href="#" class="card-title">Experience Comfort, Luxury, and Joy at Harborlights</a>
                   </h3>
 
-                  <a href="#" class="card-tag">Design</a>
+                  <a href="#" class="card-tag">Harborlights offers unforgettable memories, stunning views, and year-round comfort.</a>
                 </div>
 
               </div>
@@ -528,16 +531,16 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
-                  <img src="./assets/images/project-5.jpg" width="416" height="429" loading="lazy"
+                  <img src="./assets/images/project5.png" width="416" height="429" loading="lazy"
                     alt="Mobile App Design" class="img-cover">
                 </figure>
 
                 <div class="card-content">
                   <h3 class="h3">
-                    <a href="#" class="card-title">Mobile App Design</a>
+                    <a href="#" class="card-title">Reliable Construction, Built to Last</a>
                   </h3>
 
-                  <a href="#" class="card-tag">Design</a>
+                  <a href="#" class="card-tag">Constra builds strong structures with precision, safety, and trusted expertise.</a>
                 </div>
 
               </div>
@@ -593,34 +596,41 @@
       <!-- 
       contact!-->
         <div class="contact-main">
-          <form action="thank-you.html" id="contact">
-            <h2>Contact Us</h2>
-          
-            <div class="form-group fullname">
-              <label for="fullname">Full Name</label>
-              <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
-            </div>
-          
-            <div class="form-group email">
-              <label for="email">Email Address</label>
-              <input type="text" id="email" name="email" required placeholder="Enter your email address">
-            </div>
-          
-            <div class="form-group file">
-              <label for="file">Choose File</label>
-              <input type="file" id="file" name="file" required>
-            </div>
-          
-            <div class="form-group number">
-              <label for="number">Contact Number</label>
-              <input type="number" id="number" name="number" required placeholder="Enter your Number">
-            </div>
-          
-            <div class="form-group submit-btn">
-              <input type="submit" value="Submit">
-            </div>
-          </form>
-          
+          <form id="userForm" method="post" action="contactprocess.php" enctype="multipart/form-data">
+  <h2>Contact Us</h2>
+
+  <div class="form-group fullname">
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+  </div>
+
+  <div class="form-group email">
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" required placeholder="Enter your email address">
+    <span id="email-msg"></span>
+  </div>
+
+  <div class="form-group file">
+    <label for="file">Choose File</label>
+    <input type="file" id="file" name="file" required>
+  </div>
+
+  <div class="form-group number">
+    <label for="contact">Contact Number</label>
+    <input type="number"  class="no-arrow" id="contact" name="Contact" required placeholder="Enter your Number">
+    <span id="contact-msg"></span>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="msg" name="message" id="message"></textarea>
+  </div>
+
+  <div class="form-group submit-btn">
+    <input type="submit" value="Submit">
+  </div>
+</form>
+
         </div>
   
       </div>
@@ -683,23 +693,23 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Home</a>
+            <a href="#home" class="footer-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Services</a>
+            <a href="#service" class="footer-link">Services</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Projects</a>
+            <a href="#project" class="footer-link">Projects</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">About us</a>
+            <a href="#about" class="footer-link">About us</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Contacts</a>
+            <a href="#contact" class="footer-link">Contacts</a>
           </li>
 
         </ul>
@@ -869,7 +879,65 @@
   </a>
 
 
+  <script>
+  $(document).ready(function () {
+    let emailValid = false;
+    let contactValid = false;
 
+    // Email validation
+    $('#email').on('blur', function () {
+      var email = $(this).val();
+      if (email !== '') {
+        $.ajax({
+          url: 'check_duplicate.php',
+          method: 'POST',
+          data: { email: email },
+          success: function (response) {
+            $('#email-msg').html(response);
+            if (response.includes("already exists")) {
+              $('#email').addClass("input-error").removeClass("input-success");
+              emailValid = false;
+            } else {
+              $('#email').addClass("input-success").removeClass("input-error");
+              emailValid = true;
+            }
+          }
+        });
+      }
+    });
+
+    // Contact number validation
+    $('#contact').on('blur', function () {
+      var contact = $(this).val();
+      if (contact !== '') {
+        $.ajax({
+          url: 'check_duplicate.php',
+          method: 'POST',
+          data: { contact: contact },
+          success: function (response) {
+            $('#contact-msg').html(response);
+            if (response.includes("already exists")) {
+              $('#contact').addClass("input-error").removeClass("input-success");
+              contactValid = false;
+            } else {
+              $('#contact').addClass("input-success").removeClass("input-error");
+              contactValid = true;
+            }
+          }
+        });
+      }
+    });
+
+    // Form submission
+    $('#userForm').on('submit', function (e) {
+      if (!emailValid || !contactValid) {
+        e.preventDefault();
+        alert("Form can't be submitted. Please fix errors in email or contact number.");
+      }
+    });
+  });
+
+</script>
 
 
   <!-- 
