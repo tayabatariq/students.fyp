@@ -37,6 +37,14 @@
 
 <body id="top">
 
+<!-- From Uiverse.io by gagan-gv --> 
+<button id="left-button">
+  <a href="https://wa.me/923124819018" target="_blank" >
+                <ion-icon class="icon" name="logo-whatsapp"></ion-icon><span>How can I help You?</span>
+              </a>
+  
+</button>
+
   <!-- 
     - #HEADER
   -->
@@ -44,12 +52,13 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">Student.fyp</a>
+      <a href="#" class="logo"><img class="logoimg" src="./assets/images/logo.png" alt=""></a>
 
       <nav class="navbar" data-navbar>
 
         <div class="wrapper">
-          <a href="#" class="logo">student.fyp</a>
+        <a href="#" class="logo"><img class="logoimg" src="./assets/images/logo.png" alt=""></a>
+
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -90,7 +99,7 @@
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
       </button>
 
-      <a href="#hire" class="btn btn-primary has-before has-after">Hire Instructor🤝</a>
+      <a href="https://wa.me/923124819018" target="_blank" class="btn btn-primary has-before has-after">Hire Instructor🤝</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
 
@@ -118,23 +127,19 @@
             </h1>
 
             <p class="hero-text">
-              At student.fyp, we specialize in helping students craft standout final year web development projects using modern tech stacks. Whether it's MERN, WordPress, or AI-powered features — we’ve got you covered.
+              At students.fyp, we specialize in helping students craft standout final year web development projects using modern tech stacks. Whether it's MERN, WordPress, or AI-powered features — we’ve got you covered.
             </p>
 
             <div class="wrapper">
-              <a href="#" class="btn btn-primary has-before has-after">Get Started Today</a>
+              <a href="#contact" class="btn btn-primary has-before has-after">Get Started Today</a>
 
-              <button class="hero-btn" aria-label="pixology promo">
-                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">View Our Works</span>
-              </button>
+              
             </div>
 
             <ul class="social-list">
 
               <li>
-                <a href="#" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                <a href="https://www.facebook.com/profile.php?id=61575042223776" target="_blank" class="social-link" style="--color: hsl(241, 77%, 63%);">
                   <ion-icon name="logo-facebook"></ion-icon>
 
                   <span class="span">Facebook</span>
@@ -144,17 +149,17 @@
             
 
               <li>
-                <a href="https://wa.me/03085437544"  target="_blank" class="social-link" style="--color: hsl(123, 89%, 53%);">
+                <a href="https://wa.me/923124819018"  target="_blank" class="social-link" style="--color: hsl(123, 89%, 53%);">
                   <ion-icon name="logo-whatsapp"></ion-icon>
 
                   <span class="span">Whatsapp</span>
                 </a>
               </li>
               <li>
-                <a href="" class="social-link" style="--color: hsl(203, 89%, 53%);">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                <a href="" class="social-link" style="--color: hsl(325, 89.20%, 52.90%);">
+                  <ion-icon name="logo-instagram"></ion-icon>
 
-                  <span class="span">LinkedIn</span>
+                  <span class="span">Instagram</span>
                 </a>
               </li>
 
@@ -163,7 +168,8 @@
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+            <!-- <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100"> -->
+             <img src="./assets/images/hero-banner.png" class="herro-baner"  alt="hero banner" >
           </figure>
 
         </div>
@@ -342,7 +348,7 @@
 
             <h2 class="h2 section-title">
               Specialist in aviding clients of financial <span class="has-before">challenges</span>
-              Elevate Your Final Year Project with <span class="has-before">student.fyp</span>
+              Elevate Your Final Year Project with <span class="has-before">students.fyp</span>
             </h2>
 
             <ul class="feature-list">
@@ -553,48 +559,7 @@
 
 
 
-
-
-      <!-- 
-        - #NEWSLETTER
-      -->
-
-      <section class="section newsletter has-bg-image" aria-label="newsletter"
-        style="background-image: url('./assets/images/newsletter-bg.jpg')">
-        <div class="container">
-
-          <figure class="newsletter-banner">
-            <img src="./assets/images/newsletter-banner.png" height="2px" loading="lazy"
-              alt="newsletter banner" class="w-100">
-          </figure>
-
-          <div class="newsletter-content">
-
-            <p class="section-subtitle has-before">Elevate Your Final Year Journey</p>
-
-            <h2 class="h2 section-title">Stay ahead with expert tips, free resources, and exclusive deals for your final year projects.</h2>
-
-            <form action="" class="newsletter-form">
-              <input type="email" name="email_address" placeholder="Enter your Email" required class="email-field">
-
-              <button type="submit" class="btn btn-secondary has-before has-after">
-                <span class="span">Proceed</span>
-
-                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-              </button>
-            </form>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-      contact!-->
+    
         <div class="contact-main">
           <form id="userForm" method="post" action="contactprocess.php" enctype="multipart/form-data">
   <h2>Contact Us</h2>
@@ -633,7 +598,8 @@
 
         </div>
   
-      </div>
+
+  
       
     </article>
   </main>
@@ -665,19 +631,20 @@
            
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.facebook.com/profile.php?id=61575042223776" target="_blank" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
               <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://wa.me/923124819018" target="_blank" class="social-link">
                 <ion-icon name="logo-whatsapp"></ion-icon>
               </a>
             </li>
@@ -721,15 +688,13 @@
           </li>
         
           <li>
-            <a href="mailto:info@student.fyp.com" class="footer-link">info@student.fyp.com</a>
+            <a href="mailto:studentsfyp@gmail.com" class="footer-link">studentsfyp@gmail.com</a>
           </li>
         
-          <li>
-            <a href="mailto:support@student.fyp.com" class="footer-link">support@student.fyp.com</a>
-          </li>
+         
         
           <li>
-            <a href="https://wa.me/1234567890" class="footer-link">WhatsApp: +1-234-567-890</a>
+            <a href="https://wa.me/1234567890" class="footer-link">WhatsApp:  +92-312-4819018</a>
           </li>
         
         </ul>
